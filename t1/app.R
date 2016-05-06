@@ -7,6 +7,11 @@ library(leaflet)
 library(profvis) # devtools::install_github("rstudio/profvis")
 
 # debug ----
+
+# run profiling visualization
+# P = profvis::profvis({shiny::runApp('./t1')}); print(P)
+
+# set working directory if running from Console
 # setwd('t1')
 
 # load data ----
